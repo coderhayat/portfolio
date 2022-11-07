@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*start variables*/
+/*end variables*/
+/*start nav coding*/
+nav {
+  width: 100%;
+  background-color: #F5F6F6;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+nav div {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+nav div h2 {
+  float: left;
+  color: #03CAFC;
+  font-weight: bold;
+}
+nav div span {
+  float: right;
+  font-size: 30px !important;
+  display: none !important;
+}
+nav div ul {
+  float: right;
+  margin-top: 5px;
+}
+nav div ul li {
+  display: inline;
+  list-style: none;
+}
+nav div ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav div ul li a:hover {
+  color: #03CAFC;
+}
+nav div ul .nav-item {
+  margin-right: 40px;
+}
+
+/*end nav coding*/
+/*start header coding*/
+header {
+  width: 100%;
+  height: 100vh;
+}
+header .container {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+header .container h1 {
+  font-size: 60px;
+  color: #03CAFC;
+}
+header .container h2 {
+  font-size: 50px;
+}
+header .container img {
+  display: inline-block;
+  width: 50%;
+}
+header .container .btn {
+  width: 222px;
+  margin-top: 50px;
+  display: inline-block;
+  border: #1a1a1a solid 2px;
+  padding: 15px 0px;
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+header .container .btn:hover {
+  background-color: #03CAFC;
+  color: white;
+}
+
+/*end header coding*/
+/*start about coding*/
+.about {
+  background-color: #F5F6F6;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.about .img-box {
+  width: 47%;
+  float: left;
+}
+.about .img-box img {
+  width: 100%;
+}
+.about .text-box {
+  width: 47%;
+  float: right;
+}
+.about .text-box h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.about .text-box p {
+  line-height: 30px;
+}
+.about .text-box button {
+  width: 222px;
+  display: inline-block;
+  border: #1a1a1a solid 2px;
+  background-color: white;
+  padding: 15px 0px;
+  margin-top: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about .text-box button:hover {
+  background-color: #03CAFC;
+  color: white;
+}
+
+/*end about coding*/
+/*start glasses coding*/
+.glasses {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.glasses h1 {
+  margin-bottom: 20px;
+}
+.glasses p {
+  line-height: 30px;
+}
+.glasses .left-box {
+  width: 47%;
+  float: left;
+  margin-top: 30px;
+}
+.glasses .left-box div {
+  border: 1px solid black;
+  padding: 60px 0;
+  margin-top: 20px;
+}
+.glasses .right-box {
+  width: 47%;
+  float: right;
+  margin-top: 30px;
+}
+.glasses .right-box div {
+  border: 1px solid black;
+  padding: 60px 0;
+  margin-top: 20px;
+}
+.glasses button {
+  width: 222px;
+  display: inline-block;
+  border: #1a1a1a solid 2px;
+  background-color: white;
+  padding: 15px 0px;
+  margin-top: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.glasses button:hover {
+  background-color: #03CAFC;
+  color: white;
+}
+
+/*end glasses coding*/
+/*start shop coding*/
+.shop {
+  width: 100%;
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.shop .img-box {
+  width: 47%;
+  float: left;
+  text-align: center;
+}
+.shop .img-box img {
+  width: 80%;
+}
+.shop .text-box {
+  background-color: #000;
+  color: white;
+  width: 47%;
+  float: right;
+  padding: 20px;
+}
+.shop .text-box h1 {
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+.shop .text-box p {
+  line-height: 40px;
+}
+.shop .text-box button {
+  width: 222px;
+  display: inline-block;
+  border: #1a1a1a solid 2px;
+  background-color: white;
+  padding: 15px 0px;
+  margin-top: 70px;
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 73px;
+}
+.shop .text-box button:hover {
+  background-color: #03CAFC;
+  color: white;
+}
+
+/*end shop coding*/
+/*start contact coding*/
+.contact {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contact .input-box {
+  width: 100%;
+  height: 46px;
+  background: #d1d3d4;
+  border: none;
+  padding: 0 15px;
+}
+.contact .textarea-box {
+  width: 100%;
+  background: #d1d3d4;
+  border: none;
+  padding: 15px 15px;
+}
+.contact .send {
+  background: #077054;
+  border: none;
+  border-radius: 5px;
+  color: #99fa99;
+  cursor: pointer;
+  font-family: "latoregular";
+  font-size: 14px;
+  float: right;
+  height: 30px;
+  margin: 8px 0 0;
+  width: 50px;
+}
+
+/*end contact coding*/
+/*start footer coding*/
+footer {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #F5F6F6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*end footer coding*//*# sourceMappingURL=style.css.map */

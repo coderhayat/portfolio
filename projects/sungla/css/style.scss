@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid red;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/*start variables*/
+$primary-color: #03CAFC;
+$white-color:#fff;
+$black-color:#000;
+/*end variables*/
+/*start nav coding*/
+@mixin inner-width {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+$i-font:30px;
+nav{
+    width: 100%;
+    background-color: #F5F6F6;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: +10;
+    div{
+        @include inner-width;
+        h2{
+            float: left;
+            color: $primary-color;
+            font-weight: bold;
+        }
+        span{
+            float: right;
+            font-size: 30px !important;
+            display: none !important;
+        }
+        ul{
+            float: right;
+            margin-top: 5px;
+            li{
+                display: inline;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: bold;
+                }
+                a:hover{
+                    color: $primary-color;
+                }
+            }
+            .nav-item{
+                margin-right: 40px;
+            }
+        }
+    }
+}
+/*end nav coding*/
+/*start header coding*/
+header{
+    width: 100%;
+    height: 100vh;
+    .container{
+        //@include inner-width;
+        text-align: center;
+        //padding-top: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        h1{
+            font-size: 70px;
+            color: $primary-color;
+        }
+        h2{
+            font-size: 60px;
+        } 
+        img{
+            display: inline-block;
+            width: 70%;
+        }
+        .btn{
+            width: 222px;
+            display: inline-block;
+            border: #1a1a1a solid 2px;
+            padding: 15px 0px;
+            color: #000;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: $primary-color;
+            color: white;
+        }
+    }
+}
+/*end header coding*/
+/*start about coding*/
+.about{
+    background-color: #F5F6F6;
+    @include inner-width;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    .img-box{
+        width: 47%;
+        float: left;
+        img{
+            width: 100%;
+        }
+    }
+    .text-box{
+        width: 47%;
+        float: right;
+        h3{
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+        p{
+            line-height: 30px;
+        }
+        button{
+            width: 222px;
+            display: inline-block;
+            border: #1a1a1a solid 2px;
+            background-color: white;
+            padding: 15px 0px;
+            margin-top: 20px;
+            color: #000;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: $primary-color;
+            color: white;
+        }
+    }
+}
+/*end about coding*/
+/*start glasses coding*/
+.glasses{
+    @include inner-width;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    h1{
+        margin-bottom: 20px;
+    }
+    p{
+        line-height: 30px;
+    }
+    .left-box{
+        width: 47%;
+        float: left;
+        margin-top: 30px;
+        div{
+            border: 1px solid black;
+            padding: 60px 0;
+            margin-top: 20px;
+        }
+    }
+    .right-box{
+        width: 47%;
+        float: right;
+        margin-top: 30px;
+        div{
+            border: 1px solid black;
+            padding: 60px 0;
+            margin-top: 20px;
+        }
+    }
+    button{
+        width: 222px;
+        display: inline-block;
+        border: #1a1a1a solid 2px;
+        background-color: white;
+        padding: 15px 0px;
+        margin-top: 20px;
+        color: #000;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 40px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: $primary-color;
+        color: white;
+    }
+}
+/*end glasses coding*/
+/*start shop coding*/
+.shop{
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .img-box{
+        width: 47%;
+        float: left;
+        text-align: center;
+        img{
+            width: 80%;
+        }
+    }
+    .text-box{
+        background-color: #000;
+        color: white;
+        width: 47%;
+        float: right;
+        padding: 20px;
+        h1{
+            margin-bottom: 30px;
+            margin-top: 60px;
+        }
+        p{
+            line-height: 40px;
+        }
+        button{
+            width: 222px;
+            display: inline-block;
+            border: #1a1a1a solid 2px;
+            background-color: white;
+            padding: 15px 0px;
+            margin-top: 70px;
+            color: #000;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 73px;
+        }
+        button:hover{
+            background-color: $primary-color;
+            color: white;
+        }
+    }
+}
+
+
+/*end shop coding*/
+/*start contact coding*/
+.contact{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    h1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .input-box{
+        width: 100%;
+        height: 46px;
+        background: #d1d3d4;
+        border: none;
+        padding: 0 15px;
+    }
+    .textarea-box{
+        width: 100%;
+        background: #d1d3d4;
+        border: none;
+        padding: 15px 15px;
+    }
+    .send{
+        background: #077054;
+        border: none;
+        border-radius: 5px;
+        color: #99fa99;
+        cursor: pointer;
+        font-family: 'latoregular';
+        font-size: 14px;
+        float: right;
+        height: 30px;
+        margin: 8px 0 0;
+        width: 50px;
+    }
+}
+/*end contact coding*/
+/*start footer coding*/
+footer{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #F5F6F6;
+    text-align: center;
+    margin-top: 20px;
+}
+/*end footer coding*/

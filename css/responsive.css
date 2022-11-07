@@ -1,0 +1,41 @@
+@media only screen and (max-width:576px){
+    .header-text h1{
+        font-size: 40px;
+    }
+    .header-text h3{
+        font-size: 30px;
+    }
+    .header-text h5{
+        font-size: 20px;
+    }
+    /*start contact coding*/
+    .contact .form-box{
+        width: 100%;
+        margin: 0;
+    }
+    /*end contact coding*/
+    /*start footer coding*/
+    footer .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    /*end footer coding*/
+    @media only screen and (max-width:320px){
+        .header-text{
+            padding: 190px 0;
+        }
+
+    }
+}
+@media only screen and (min-width:992px){
+    .projects .row{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:992px){
+    .projects .resto{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,89 @@
+@media only screen and (max-width:576px){
+    /*start banner coding*/
+    .banner{
+        margin-top: 80px;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    /*end banner coding*/
+    /*start reservation coding*/
+    .reservation .form{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    /*end reservation coding*/
+} 
+@media only screen and (max-width:992px){
+    /*start about coding*/
+    .about img{
+        margin-bottom: 20px;
+    }
+    /*end about coding*/
+    /*start dishes coding*/
+    .dishes .flex-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dishes .flex-1 .margin-botton{
+        margin-top: 20px; 
+    }
+    .dishes .flex-2 .margin-botton{
+        margin-bottom: 20px;
+    }
+    /*end dishes coding*/
+    /*start menu coding*/
+    .menu .breakfast{
+        margin-bottom: 20px;
+    }
+    /*end menu coding*/
+    /*start reservation coding*/
+    .reservation .form{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    /*end reservation coding*/
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .banner{
+        margin-top: 100px;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner .mt-4{
+        margin-top: 10px !important;
+    }
+    .banner .mt-5{
+        margin-top: 20px !important;
+    }
+    .banner img{
+        width: 60%;
+    }
+    .banner .img-box{
+        text-align: center;
+    }
+} 
+@media only screen and (min-width:992px){
+    .banner .flex{
+        display: flex;
+        align-items: center;
+    }
+    /*start about coding*/
+    .about .flex{
+        display: flex;
+        align-items: center;
+    }
+    /*end about coding*/
+    /*start dishes coding*/
+    .dishes .flex-1{
+        display: flex;
+        align-items: center;
+    }
+    .dishes .flex-2{
+        display: flex;
+        align-items: center;
+    }
+    /*end dishes coding*/
+}

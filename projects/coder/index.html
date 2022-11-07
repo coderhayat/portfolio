@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="clearfix">
+            <h2><span class="fa-regular fa-laptop-code"></span> Coder</h2>
+            <i class="fa-duotone fa-bars" onclick="icon()"></i>
+            <ul id="menu">
+                <li class="nav-item"><a href="#home">HOME</a></li>
+                <li class="nav-item"><a href="#about">ABOUT</a></li>
+                <li class="nav-item"><a href="#services">SERVICES</a></li>
+                <li class="nav-item"><a href="#clients">CLIENTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--start header coding-->
+    <div class="slider" id="home">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="images/web1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/web2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/web3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/web4.jpg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <div class="caption">
+        <h1><span>We Provide</span> Web Services</h1>
+        <a href="">Contact Us</a>
+    </div>
+    <!--end header coding-->
+    <!--start about coding-->
+    <div class="about clearfix" id="about">
+        <div class="box1">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </p>
+            <a href="">Read More <i class="fa-solid fa-arrow-right-to-line"></i></a>
+        </div>
+        <div class="box2">
+            <img src="images/about.jpg" alt="">
+        </div>
+    </div>
+    <!--end about coding-->
+    <!--start services coding-->
+    <div class="services" id="services">
+        <h1 class="h">SERVICES</h1>
+        <div class="web">
+            <div class="box1">
+                <h1>Web Development</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                </p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-to-line"></i></a>
+            </div>
+            <div class="box2">
+                <img src="images/web.jpg" alt="">
+            </div>
+        </div>
+        <div class="app">
+            <div class="box1">
+                <img src="images/app.jpg" alt="">
+            </div>
+            <div class="box2">
+                <h1>Mobile App Development</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                </p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-to-line"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--end services coding-->
+    <!--start clients coding-->
+    <div class="clients" id="clients">
+        <h1>What is Say clients</h1>
+        <p>There are many variations of passages of Lorem Ipsum available,
+             but the majority have suffered alteration in some form, by injected humour,
+              or randomised words which don't look even slightly believable.
+               If you are going to use a passage of Lorem Ipsum,
+             you need to be sure there isn't anything embarrassing 
+             hidden in the middle of text.
+        </p>
+        <div class="arrow-img">
+            <img src="images/arrow.PNG" alt="">
+        </div>
+        <img src="images/client.png" alt="">
+        <h3>Jone due</h3>
+        <a href="">Get A Quote</a>
+    </div>
+    <!--end clients coding-->
+    <!--start contact coding-->
+    <div class="full-width" id="contact">
+        <div class="contact">
+            <h1>Reqeste A call back</h1>
+            <form action="">
+                <input type="text" name="name" placeholder="Full Name" class="input-box"> <br> <br>
+                <input type="number" name="number" placeholder="Phone Number" class="input-box"> <br> <br>
+                <input type="email" name="email" placeholder="Email" class="input-box"> <br> <br>
+                <input type="text" name="message" placeholder="Message" class="input-box"> <br> <br>
+                <input type="submit" value="SEND" class="submit">
+            </form>
+        </div>
+    </div>
+    <!--end contact coding-->
+    <!--start footer coding-->
+    <footer>
+        <p>© 2019 All Rights Reserved. Design by Hayat Ali</p>
+    </footer>
+    <!--end footer coding-->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

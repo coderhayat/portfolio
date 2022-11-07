@@ -1,0 +1,102 @@
+@media only screen and (max-width:576px){
+    nav div{
+        width: 100%;
+        padding: 0 10px;
+    }
+    nav div i{
+        margin-top: 3px;
+        display: block !important;
+        color: #fff;
+    }
+    nav div ul{
+        display: none;
+        width: 100%;
+    }
+    nav div ul li{
+        display: block;
+        margin-bottom: 10px;
+    }
+    /*start about coding*/
+    .about{
+        width: 100%;
+    }
+    /*end about coding*/
+    /*start services coding*/
+    .services{
+        width: 100%;
+    }
+    /*end services coding*/
+    /*start clients coding*/
+    .clients{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    /*end clients coding*/
+    /*start contact coding*/
+    .full-width .contact{
+        width: 100%;
+    }
+    .full-width .contact .input-box{
+        width: 100%;
+    }
+    /*end contact coding*/
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    nav div{
+        width: 95% !important;
+    }
+    nav div ul .nav-item{
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width:1440px){
+    .navigation-auto{
+        margin-top: 936px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .navigation-auto{
+        margin-top: 805px;
+    }
+    /*start about coidng*/
+    .about .box1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about .box2{
+        width: 100%;
+    }
+    /*end about coding*/
+    /*start services coding*/
+    .services .web{
+        flex-direction: column-reverse;
+    }
+    .services .web .box1{
+        width: 100%;
+    }
+    .services .web .box2{
+        width: 100%;
+    }
+    .services .app{
+        flex-direction: column;
+    }
+    .services .app .box1{
+        width: 100%;
+    }
+    .services .app .box2{
+        width: 100%;
+    }
+    /*end services coding*/
+}
+@media only screen and (min-width:1025px){
+    .about{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:768px){
+    .navigation-auto{
+        margin-top: 595px;
+    }
+}

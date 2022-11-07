@@ -1,0 +1,123 @@
+@media only screen and (max-width:576px){
+    nav div{
+        width: 100%;
+        margin: 0;
+    }
+    nav div h2{
+        clear: both !important;
+    }
+    nav div span{
+        display: block !important;
+    }
+    nav div ul{
+        clear: both !important;
+        float: left;
+        display: none;
+    }
+    nav div ul li{
+        display: block;
+        margin-top: 10px;
+    }
+    /*start header coding*/
+    header .container{
+        width: 100%;
+        margin: 0;
+        padding: 185px 10px;
+    }
+    header .container h1{
+        font-size: 40px;
+    }
+    header .container h2{
+        font-size: 30px;
+    }
+    /*end header coding*/
+    /*start about coding*/
+    .about{
+        width: 100%;
+        margin: 0;
+    }
+    .about .img-box{
+        width: 100%;
+    }
+    .about .text-box{
+        width: 100%;
+        padding: 0 10px;
+    }
+    /*end about coding*/
+    /*start glasses coding*/
+    .glasses{
+        width: 100%;
+        margin: 0;
+    }
+    .glasses .left-box{
+        width: 100%;
+    }
+    .glasses .right-box{
+        width: 100%;
+    }
+    /*end glasses coding*/
+    /*start shop coding*/
+    .shop{
+        width: 100%;
+        margin: 0;
+    }
+    .shop .img-box{
+        width: 100%;
+    }
+    .shop .text-box{
+        width: 100%;
+    }
+    /*end shop coding*/
+    /*start contact coding*/
+    .contact{
+        width: 100%;
+        margin: 0;
+    }
+    /*end contact coding*/
+}
+
+@media only screen and (max-width:768px){
+    nav div{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .about .img-box{
+        width: 100%;
+    }
+    .about .text-box{
+        width: 100%;
+        padding: 0 10px;
+    }
+    /*start shop coding*/
+    .shop .img-box{
+        width: 100%;
+    }
+    .shop .text-box{
+        width: 100%;
+    }
+    /*end shop coding*/
+}
+
+@media only screen and (min-width:992px){
+    .about{
+        display: flex;
+        align-items: center;
+    }
+    /*start shop coding*/
+    .shop{
+        display: flex;
+        align-items: center;
+    }
+    /*end shop coding*/
+}
+
+@media only screen and (max-width:1200px){
+
+}
+
+@media only screen and (max-width:1400px){
+
+}

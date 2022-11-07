@@ -1,0 +1,223 @@
+@media only screen and (max-width:576px){
+    /*start nav coding*/
+    nav ul{
+        width: 100%;
+        margin: 0;
+    }
+    nav ul .navbar-logo{
+        font-size: 30px;
+    }
+    nav ul .navbar-toggle{
+        display: block;
+    }
+    nav ul .navbar-links{
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+    nav ul .navbar-contact{
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+    /*end nav coding*/
+    /*start header coding*/
+    .header-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .header-text h3{
+        font-size: 20px;
+    }
+    .header-text h1{
+        font-size: 40px;
+    }
+    /*end header coding*/
+    /*start about coding*/
+    .about{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .img-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about .text-box{
+        width: 100%;
+    }
+    /*end about coding*/
+
+    /*start services coding*/
+    .services{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .services .three-box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .services .three-box .box-1, .services .three-box .box-2, .services .three-box .box-3{
+        width: 100%;
+    }
+    /*end services coding*/
+    /*start page doctor coding*/
+    .page{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .page .doctor .box-1, .page .doctor .box-2, .page .doctor .box-3{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .page h1{
+        font-size: 30px;
+    }
+    .page h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    /*end page doctor coding*/
+    /*start contact coding*/
+    .contact .form{
+        width: 100%;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contact .form .input{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /*end contact coding*/
+    /*start footer coding*/
+    footer .inner{
+        width: 100%;
+    }
+    footer .inner .box-1, footer .inner .box-2, footer .inner .box-3, footer .inner .box-4{
+        width: 100%;
+    }
+    footer .two-para{
+        width: 100%;
+        flex-direction: column;
+    }
+    footer .two-para p{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    /*end footer coding*/
+}
+@media only screen and (max-width:768px){
+    /*start nav coding*/
+    nav ul{
+        width: 100%;
+        margin: 0;
+    }
+    nav ul .navbar-toggle{
+        display: block;
+    }
+    nav ul .navbar-links{
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+    nav ul .navbar-contact{
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+    /*end nav coding*/
+    /*start page doctor coding*/
+
+    /*end page doctor coding*/
+}
+
+@media only screen and (max-width:992px){
+    nav ul{
+        width: 100%;
+        margin: 0;
+    }
+    /*start about coding*/
+    .about{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .img-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about .text-box{
+        width: 100%;
+    }
+    /*end about coding*/
+}
+
+@media only screen and (max-width:1024px){
+    nav ul{
+        width: 100%;
+        margin: 0;
+    }
+    /*start about coding*/
+    .about{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .img-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about .text-box{
+        width: 100%;
+    }
+    /*end about coding*/
+    /*start services coding*/
+    .services .three-box{
+        width: 100%;
+    }
+    /*end services coding*/
+    /*start pricing coding*/
+    .pricing .three-box{
+        width: 100%;
+    }
+    /*end pricing coding*/
+    /*start doctor coding*/
+    .page .doctor{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /*end doctor coding*/
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .page .doctor .box-1, .page .doctor .box-2, .page .doctor .box-3{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .contact .form{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    .contact .form .input{
+        width: 49.5%;
+    }
+    /*start footer coding*/
+    footer .inner .box-1, footer .inner .box-2, footer .inner .box-3, footer .inner .box-4{
+        width: 50%;
+    }
+    /*end footer coding*/
+}
+
+@media only screen and (min-width:1024px){
+    .about{
+        align-items: center;
+    }
+}
